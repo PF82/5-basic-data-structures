@@ -22,12 +22,21 @@ the array, and false if it does not.
 
 function quickCheck(arr, elem) {
     // Only change code below this line
-
+    if (arr.indexOf(elem) >= 0) {
+        return true;
+    }
+    return false;
     // Only change code above this line
 }
 
-console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
+console.log(quickCheck(['squash', 'onions', 'shallots'], 0));
 
 
 console.log()
 // document.getElementById("demo").innerHTML = "";
+
+let fruits = ['apples', 'pears', 'oranges', 'peaches', 'pears'];
+
+console.log(fruits.indexOf('dates'));
+console.log(fruits.indexOf('oranges'));
+console.log(fruits.indexOf('pears'));

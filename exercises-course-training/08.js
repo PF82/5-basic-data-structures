@@ -8,6 +8,7 @@ In practice, we can use the spread operator to copy an array like so:
 
 let thisArray = [true, true, undefined, false, null];
 let thatArray = [...thisArray];
+
 thatArray equals [true, true, undefined, false, null]. thisArray remains unchanged and thatArray contains the same elements as thisArray.
 
 We have defined a function, copyMachine which takes arr (an array) and num (a number) as arguments. The function is supposed to return a new 
@@ -19,7 +20,7 @@ function copyMachine(arr, num) {
     let newArr = [];
     while (num >= 1) {
         // Only change code below this line
-
+        newArr.push([...arr]);
         // Only change code above this line
         num--;
     }
