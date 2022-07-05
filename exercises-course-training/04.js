@@ -29,8 +29,8 @@ array contains their values.
 */
 
 function popShift(arr) {
-    let popped; // Change this line
-    let shifted; // Change this line
+    let popped = arr.pop(); // Change this line
+    let shifted = arr.shift(); // Change this line
     return [shifted, popped];
 }
 
@@ -39,3 +39,14 @@ console.log(popShift(['challenge', 'is', 'not', 'complete']));
 
 console.log()
 // document.getElementById("demo").innerHTML = "";
+
+let greetings = ['whats up?', 'hello', 'see ya!'];
+
+greetings.pop();
+
+greetings.shift();
+
+let popped = greetings.pop();
+
+console.log(greetings)
+console.log(popped)
