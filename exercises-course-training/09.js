@@ -24,6 +24,3 @@ function spreadOut() {
 
 console.log(spreadOut());
 
-
-console.log()
-// document.getElementById("demo").innerHTML = "";

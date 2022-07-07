@@ -34,6 +34,3 @@ function getArrayOfUsers(obj) {
 
 console.log(getArrayOfUsers(users));
 
-
-console.log()
-// document.getElementById("demo").innerHTML = "";

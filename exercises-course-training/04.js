@@ -36,17 +36,3 @@ function popShift(arr) {
 
 console.log(popShift(['challenge', 'is', 'not', 'complete']));
 
-
-console.log()
-// document.getElementById("demo").innerHTML = "";
-
-let greetings = ['whats up?', 'hello', 'see ya!'];
-
-greetings.pop();
-
-greetings.shift();
-
-let popped = greetings.pop();
-
-console.log(greetings)
-console.log(popped)

@@ -33,7 +33,3 @@ function mixedNumbers(arr) {
 }
 
 console.log(mixedNumbers(['IV', 5, 'six']));
-
-
-console.log()
-// document.getElementById("demo").innerHTML = "";

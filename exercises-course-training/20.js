@@ -40,7 +40,3 @@ function addFriend(userObj, friend) {
 }
 
 console.log(addFriend(user, 'Pete'));
-
-
-console.log()
-// document.getElementById("demo").innerHTML = "";
