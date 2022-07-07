@@ -28,7 +28,3 @@ function copyMachine(arr, num) {
 }
 
 console.log(copyMachine([true, false, true], 2));
-
-
-console.log()
-// document.getElementById("demo").innerHTML = "";
