@@ -11,9 +11,11 @@ let twentyThree = 'XXIII';
 let romanNumerals = ['XXI', 'XXII'];
 
 romanNumerals.unshift('XIX', 'XX');
+
 romanNumerals would have the value ['XIX', 'XX', 'XXI', 'XXII'].
 
 romanNumerals.push(twentyThree);
+
 romanNumerals would have the value ['XIX', 'XX', 'XXI', 'XXII', 'XXIII']. Notice that we can also pass variables, which allows us even greater 
 flexibility in dynamically modifying our array's data.
 
@@ -24,7 +26,8 @@ numbers 1-9 in order.
 
 function mixedNumbers(arr) {
     // Only change code below this line
-
+    arr.unshift('I', 2, 'three');
+    arr.push(7, 'VIII', 9);
     // Only change code above this line
     return arr;
 }

@@ -7,6 +7,7 @@ of another. Spread syntax makes the following operation extremely simple:
 let thisArray = ['sage', 'rosemary', 'parsley', 'thyme'];
 
 let thatArray = ['basil', 'cilantro', ...thisArray, 'coriander'];
+
 thatArray would have the value ['basil', 'cilantro', 'sage', 'rosemary', 'parsley', 'thyme', 'coriander'].
 
 Using spread syntax, we have just achieved an operation that would have been more complex and more verbose had we used traditional methods.
@@ -17,7 +18,7 @@ array ['learning', 'to', 'code', 'is', 'fun'].
 
 function spreadOut() {
     let fragment = ['to', 'code'];
-    let sentence; // Change this line
+    let sentence = ['learning', ...fragment, 'is', 'fun']; // Change this line
     return sentence;
 }
 
