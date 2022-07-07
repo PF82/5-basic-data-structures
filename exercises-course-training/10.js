@@ -29,7 +29,7 @@ function quickCheck(arr, elem) {
     // Only change code above this line
 }
 
-console.log(quickCheck(['squash', 'onions', 'shallots'], 0));
+console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
 
 
 console.log()
