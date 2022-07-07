@@ -32,6 +32,3 @@ myArray[1] = "not b anymore";
 // Only change code above this line
 console.log(myArray);
 
-
-console.log()
-// document.getElementById("demo").innerHTML = "";

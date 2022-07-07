@@ -41,8 +41,8 @@ We have defined a variable called yourArray. Complete the statement by assigning
 variable. Your array should contain at least one string, one number, and one boolean.
 */
 
-let yourArray = ["string", 10, true, false, undefined]; // Change this line
+let yourArray = ["string", 5, true, false, undefined]; // Change this line
 
 
-console.log(yourArray)
+console.log()
 // document.getElementById("demo").innerHTML = "";
