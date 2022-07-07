@@ -55,7 +55,3 @@ foods.strawberries = 27;
 // Only change code above this line
 
 console.log(foods);
-
-
-console.log()
-// document.getElementById("demo").innerHTML = "";

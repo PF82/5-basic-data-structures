@@ -26,12 +26,8 @@ let foods = {
 
 function checkInventory(scannedItem) {
     // Only change code below this line
-    return foods[scannedItem];
+return foods[scannedItem];
     // Only change code above this line
 }
 
 console.log(checkInventory("apples"));
-
-
-console.log()
-// document.getElementById("demo").innerHTML = "";
