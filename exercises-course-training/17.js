@@ -46,6 +46,3 @@ function isEveryoneHere(userObj) {
 
 console.log(isEveryoneHere(users));
 
-
-console.log()
-// document.getElementById("demo").innerHTML = "";

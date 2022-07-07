@@ -31,6 +31,3 @@ delete foods.strawberries;
 
 console.log(foods);
 
-
-console.log()
-// document.getElementById("demo").innerHTML = "";
