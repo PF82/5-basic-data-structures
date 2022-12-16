@@ -17,7 +17,7 @@ array ['learning', 'to', 'code', 'is', 'fun'].
 
 function spreadOut() {
     let fragment = ['to', 'code'];
-    let sentence; // Change this line
+    let sentence = ['learning', ...fragment, 'is', 'fun']; // Change this line
     return sentence;
 }
 

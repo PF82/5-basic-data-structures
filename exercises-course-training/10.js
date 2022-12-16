@@ -22,12 +22,13 @@ the array, and false if it does not.
 
 function quickCheck(arr, elem) {
     // Only change code below this line
-
+    arr.indexOf(elem)
+    console.log(arr.indexOf(elem))
     // Only change code above this line
 }
 
 console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
 
 
-console.log()
+
 // document.getElementById("demo").innerHTML = "";

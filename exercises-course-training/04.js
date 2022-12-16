@@ -29,8 +29,8 @@ array contains their values.
 */
 
 function popShift(arr) {
-    let popped; // Change this line
-    let shifted; // Change this line
+    let popped = arr.pop(); // Change this line
+    let shifted = arr.shift(); // Change this line
     return [shifted, popped];
 }
 

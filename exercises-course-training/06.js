@@ -22,7 +22,7 @@ first two elements of the array and add 'DarkSalmon' and 'BlanchedAlmond' in the
 
 function htmlColorNames(arr) {
     // Only change code below this line
-
+    arr.splice(0, 2, 'DarkSalmon', 'BlanchedAlmond')
     // Only change code above this line
     return arr;
 }
@@ -30,5 +30,5 @@ function htmlColorNames(arr) {
 console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick']));
 
 
-console.log()
+console.log(htmlColorNames(arr))
 // document.getElementById("demo").innerHTML = "";

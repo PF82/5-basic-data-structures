@@ -24,7 +24,8 @@ numbers 1-9 in order.
 
 function mixedNumbers(arr) {
     // Only change code below this line
-
+    arr.push('I', 2, 'three');
+    arr.unshift(7, 'VIII', 9);
     // Only change code above this line
     return arr;
 }

@@ -28,10 +28,18 @@ We've initialized an array arr. Use splice() to remove elements from arr, so tha
 
 const arr = [2, 4, 5, 1, 7, 5, 2, 1];
 // Only change code below this line
-
+let newArray = arr.splice(1, 4);
 // Only change code above this line
 console.log(arr);
 
 
-console.log()
+
 // document.getElementById("demo").innerHTML = "";
+
+// 5-Remove Items Using splice()
+const arr1 = [2, 4, 5, 1, 7, 5, 2, 1];
+// Only change code below this line
+arr1.splice(4, 4);
+arr1.splice(0, 1);
+// Only change code above this line
+console.log(arr)
