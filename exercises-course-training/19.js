@@ -28,12 +28,12 @@ let users = {
 
 function getArrayOfUsers(obj) {
     // Only change code below this line
-
+    return Object.keys(obj);
     // Only change code above this line
 }
 
 console.log(getArrayOfUsers(users));
 
 
-console.log()
+console.log(Object.keys(users))
 // document.getElementById("demo").innerHTML = "";

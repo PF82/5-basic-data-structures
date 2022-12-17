@@ -34,7 +34,9 @@ let users = {
 
 function isEveryoneHere(userObj) {
     // Only change code below this line
-
+    if (users.hasOwnProperty(userObj)) {
+        return true;
+    }
     // Only change code above this line
 }
 

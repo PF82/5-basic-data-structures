@@ -33,25 +33,22 @@ which could be passed to countOnline is shown below. Each user will have an onli
 */
 
 const users = {
-    Alan: {
-        online: false
-    },
-    Jeff: {
-        online: true
-    },
-    Sarah: {
-        online: false
-    }
+  Alan: {
+    online: false
+  },
+  Jeff: {
+    online: true
+  },
+  Sarah: {
+    online: false
+  }
 }
 
 function countOnline(usersObj) {
-    // Only change code below this line
-
-    // Only change code above this line
+  // Only change code below this line
+  for (let usersObj in users) {
+    console.log(usersObj);
+  }
+  // Only change code above this line
 }
 
-console.log(countOnline(users));
-
-
-console.log()
-// document.getElementById("demo").innerHTML = "";
